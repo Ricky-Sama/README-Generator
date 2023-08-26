@@ -1,14 +1,25 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "README generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ricky-Sama",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricky-Sama/README-Generator.git"
+  },
+  "keywords": [
+    "README"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ricky-Sama/README-Generator/issues"
+  },
+  "homepage": "https://github.com/Ricky-Sama/README-Generator#readme"
 }
