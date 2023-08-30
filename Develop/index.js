@@ -23,7 +23,7 @@ const questions = [
     {
         type: "input",
         name: "usage information",
-        message: "Please enter instructions on how to use your applicaiton.",
+        message: "Please enter instructions on how to use your application.",
     },
     {
         type: "input",
@@ -33,13 +33,13 @@ const questions = [
     {
         type: "input",
         name: "test",
-        message: "Provide examples on testing application is applicable.",
+        message: "Provide examples on testing application if applicable.",
     },
     {
-        type: "input",
+        type: "checkbox",
         name: "license",
         message: "Please select a license from the following choices:",
-        choices: ["MIT", "Apache license 2.0", "Boost Software License 1.0", "Creative Commons license family", "Mozilla Public License 2.0", "Open Software License 3.0", "none" ]
+        choices: ["MIT", "Apache license 2.0", "Boost Software License 1.0", "Creative Commons license family", "Mozilla Public License 2.0", "Open Software License 3.0", "none" ],
     },
     {
         type: "input",
@@ -67,7 +67,14 @@ function writeToFile(fileName, data) {
   }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+      .prompt(questions)
+      .then((responses) => {
+        console.log("Creating README.md file...");
+        writeToFile('./utils/README.md', generateMarkdown({...responses}));
+      });
+  }
 
 // Function call to initialize app
 init();
