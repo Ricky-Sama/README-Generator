@@ -23,20 +23,20 @@ function generateMarkdown(data) {
 ${data.description}
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#HowToUseThisApplication)
+* [Usage](#usage)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Questions](#questions)
 ## Installation
 ${data.installation}
-## How to Use This Application
+## Usage
 ${data.usage}
 ## Contributors
 ${data.contribution}
 ## Testing
 ${data.test}
 ## Github
-[Github](https://github.com/${data.github})
+[${data.github}](https://github.com/${data.github})
 ## Questions
 Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect)
 
