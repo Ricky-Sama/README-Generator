@@ -21,6 +21,12 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 ## Description
 ${data.description}
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributors](#contributors)
+* [Testing](#test)
+* [Questions](#questions)
 ## Installation
 ${data.installation}
 ## How to Use This Application:
@@ -30,9 +36,9 @@ ${data.contribution}
 ## Testing
 ${data.test}
 ## Github
-${data.github}
+(https://github.com/${data.github})
 ## Questions
-Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).
+Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [Github](https://github.com/${data.github}).
 
 `;
 }
