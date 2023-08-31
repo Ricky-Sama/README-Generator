@@ -18,6 +18,21 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
+## Description
+${data.description}
+## Installation
+${data.installation}
+## How to Use This Application:
+${data.usage}
+## Contributors
+${data.contribution}
+## Testing
+${data.test}
+## Github
+${data.github}
+## Questions
+Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).
 
 `;
 }

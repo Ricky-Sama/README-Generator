@@ -17,12 +17,12 @@ const questions = [
     },
     {
         type: "input",
-        name: "instructions",
+        name: "installation",
         message: "Please provide installation instructions.",
     },
     {
         type: "input",
-        name: "usage information",
+        name: "usage",
         message: "Please enter instructions on how to use your application.",
     },
     {
