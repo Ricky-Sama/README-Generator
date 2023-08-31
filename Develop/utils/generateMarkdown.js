@@ -28,8 +28,8 @@ ${data.contribution}
 ## Testing
 ${data.test}
 ## Questions
-Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect)
-[${data.github}](https://github.com/${data.github})
+Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit
+[Github](https://github.com/${data.github})
 
 `;
 }
