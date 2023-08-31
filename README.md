@@ -16,7 +16,7 @@ This README generator was developed using NodeJS, JSON, and inquirer.
 ## Usage
 The user will be able to generate a README.md file by running NodeJS in the terminal with index.js.
 
-The following image shows the web application's appearance and functionality:
+The following image shows the command-line application's appearance and functionality:
 
 ![screenshot of README](./Develop/images/screenshot-Ricky-Sama-README-Generator.png)
 
