@@ -6,7 +6,7 @@
 This README generator was developed using NodeJS, JSON, and inquirer.
 ## Table of Contents
 * [Usage](#usage)
-* [Contact-Me](#contact-me)
+* [Contact-Me](#contact)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Demo](#demo)
